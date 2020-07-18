@@ -8,9 +8,17 @@
     <meta name="description" content="Beautiful apartments, for beautiful personalities.">
     <meta name="keywords" content="real estate,apartments,apartment,house,summer,crna gora,montenegro,enjoy,winter,top,luxury,afordable,reasonable,kotor,sea,house,lovely">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!--   <meta property="og:image" content="https://powerhousefitness.me/images/icons/Ikonica-za-browser.png" />
+     <meta property="og:image" content="https://https://www.filuro.com/assets/images/logoBrow.png" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://powerhousefitness.me/" /> -->
+    <meta property="og:url" content="https://https://www.filuro.com/" /> 
+    <meta property="og:title" content="Apartments Filuro">
+    <meta property="og:description" content="Book and enjoy!">
+    
+      <link rel="icon" type="image/png" href="/assets/images/logoBrow.png" />
+  <link rel="apple-touch-icon-precomposed" href="/assets/images/logoBrow.png" type="image/png" sizes="152x152" />
+  <link rel="apple-touch-icon-precomposed" href="/assets/images/logoBrow.png" type="image/png" sizes="120x120" />
+  <link rel="apple-touch-icon" href="/assets/images/logoBrow.png" sizes="180x180" />
+    
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,900&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
@@ -24,7 +32,7 @@
     <link rel="stylesheet" href="assets/css/animate.css">
     <link rel="stylesheet" href="assets/css/jquery.fancybox.css">
     <link rel="stylesheet" href="assets/css/settings.css">
-    <link rel="stylesheet" href="assets/css/aos.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
 
@@ -79,7 +87,7 @@
     <script src="assets/js/owl.carousel.min.js"></script>
     <script src="assets/js/jquery.stellar.min.js"></script>
     <script src="assets/js/jquery.magnific-popup.min.js"></script>
-    <script src="assets/js/aos.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="assets/js/jquery.mixitup.min.js"></script>
     <script src="assets/js/jquery.fancybox.pack.js"></script>
     <script src="assets/js/main.js"></script>
