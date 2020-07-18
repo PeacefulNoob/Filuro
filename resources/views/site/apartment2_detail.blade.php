@@ -1,0 +1,542 @@
+@extends('layouts.main')
+@section('index.css')
+@endsection
+@section('content')
+@yield('index.css')
+
+
+
+<div class="site-mobile-menu">
+  <div class="site-mobile-menu-header">
+    <div class="site-mobile-menu-close mt-3">
+      <span class="icon-close2 js-menu-toggle"></span>
+    </div>
+  </div>
+  <div class="site-mobile-menu-body"></div>
+</div> <!-- .site-mobile-menu -->
+
+<div class="site-blocks-cover inner-page-cover overlay" style="background-image: url('assets/images/apartment/Apart2/3dnevni.jpg');" data-aos="fade" data-stellar-background-ratio="0.5" data-aos="fade">
+  <div class="container">
+    <div class="row align-items-center justify-content-center">
+      <div class="col-md-7 text-center" data-aos="fade-up" data-aos-delay="400">
+        <h1 class="text-white">Stylish Filuro Apt</h1>
+        <p>$6,200/night</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="property_detail d-flex">
+    <div class="image" style="background-image: url('assets/images/apartment/Apart2/5.jpg')"></div>
+    <div class="text">
+      <h2>Property Information</h2>
+      <p class="mb-5">
+        The stylish apartment is approximately 65m2 and can comfortably accommodate up to 4 guests.
+        It is found on the first floor of an elegant building.
+      </p>
+      <ul class="property-list-details mb-5">
+        <li class="text-black">Property Name: <strong class="text-black">Stylish Filuro Apt</strong></li>
+        <li>Room: <strong>1</strong></li>
+        <li>Total Area: <strong>482 Square Feets</strong></li>
+        <li>Category: <strong>Modern House</strong></li>
+      </ul>
+      <p><a href="#contact" class="btn btn-primary px-4 py-3">Contact Us</a></p>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<section id="room-dimention">
+  <div class="container">
+    <!-- .section-title -->
+    <div class="section-title text-center">
+      <span>House Features</span>
+      <h2><span>Room Dimensions</span></h2>
+      <p>
+        Elegance and simplicity are expressed in this 55/65 sqm apartment.
+        Bright and welcoming, it consists of a living room with a sofa bed, a fully equipped kitchenette, a pretty bedroom with an bathroom.
+        Suitable for families or for four people who want to enjoy a comfortable stay.
+      </p>
+    </div><!-- /.section-title -->
+    <!-- .gallery-filter -->
+    <ul class="gallery-filter text-center">
+
+      <li data-filter=".lawn" class="room-filter">
+        <span>Lawn</span>
+      </li>
+      <li data-filter=".kitchen" class="room-filter">
+        <span>Kitchen</span>
+      </li>
+      <li data-filter=".bedroom" class="room-filter">
+        <span>Bedroom</span>
+      </li>
+      <li data-filter=".toilet" class="room-filter active">
+        <span>Toilet</span>
+      </li>
+      <li data-filter=".terrace" class="room-filter">
+        <span>Terrace</span>
+      </li>
+      <li data-filter=".masterroom" class="room-filter">
+        <span>Master room</span>
+      </li>
+    </ul><!-- /.gallery-filter -->
+    <div class="row image-gallery" data-filter-class="room-filter" data-show-on-load="lawn" id="MixItUpC68AAC">
+
+      <!-- .single-room-dimention -->
+      <div class="single-room-dimention kitchen mix" data-bound="">
+        <div class="col-lg-7 col-md-12 img-wrap fl">
+          <div class="img-holder">
+            <img src="/assets/images/apartment/Apart2/15kuhinja1.jpg" alt="Kitchen Room">
+            <div class="room-size">
+              14.5 x 12
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 col-md-12 content fl">
+          <h2>Kitchen Room</h2>
+          <p>sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. voluptatem. Ut enim ad minima veniam quis.</p>
+          <ul>
+            <li><i class="fa fa-long-arrow-right"></i> Mountain and sea View</li>
+            <li><i class="fa fa-long-arrow-right"></i> good senery with large view</li>
+            <li><i class="fa fa-long-arrow-right"></i> Neat and Clean atmosphere</li>
+          </ul>
+        </div>
+      </div><!-- /.single-room-dimention -->
+      <!-- .single-room-dimention -->
+      <div class="single-room-dimention bedroom mix" data-bound="">
+        <div class="col-lg-7 col-md-12 img-wrap fl">
+          <div class="img-holder">
+            <img src="/assets/images/apartment/Apart2/37soba.jpg" alt="Bed Room">
+            <div class="room-size">
+              14.5 x 12
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 col-md-12 content fl">
+          <h2>Bed Room</h2>
+          <p>sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. voluptatem. Ut enim ad minima veniam quis.</p>
+          <ul>
+            <li><i class="fa fa-long-arrow-right"></i> Mountain and sea View</li>
+            <li><i class="fa fa-long-arrow-right"></i> good senery with large view</li>
+            <li><i class="fa fa-long-arrow-right"></i> Neat and Clean atmosphere</li>
+          </ul>
+        </div>
+      </div><!-- /.single-room-dimention -->
+      <!-- .single-room-dimention -->
+      <div class="single-room-dimention toilet mix" data-bound="" style="display: inline-block;">
+        <div class="col-lg-7 col-md-12 img-wrap fl">
+          <div class="img-holder">
+            <img src="/assets/images/apartment/Apart2/28wc.jpg" alt="Toilet">
+            <div class="room-size">
+              14.5 x 12
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 col-md-12 content fl">
+          <h2>Toilet</h2>
+          <p>sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. voluptatem. Ut enim ad minima veniam quis.</p>
+          <ul>
+            <li><i class="fa fa-long-arrow-right"></i> Mountain and sea View</li>
+            <li><i class="fa fa-long-arrow-right"></i> good senery with large view</li>
+            <li><i class="fa fa-long-arrow-right"></i> Neat and Clean atmosphere</li>
+          </ul>
+        </div>
+      </div><!-- /.single-room-dimention -->
+      <!-- .single-room-dimention -->
+      <div class="single-room-dimention lawn mix" data-bound="">
+        <div class="col-lg-7 col-md-12 img-wrap fl">
+          <div class="img-holder">
+            <img src="/assets/images/apartment/Apart2/60.jpg" alt="Balcony bay">
+            <div class="room-size">
+              14.5 x 12
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 col-md-12 content fl">
+          <h2>Lawn</h2>
+          <p>sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. voluptatem. Ut enim ad minima veniam quis.</p>
+          <ul>
+            <li><i class="fa fa-long-arrow-right"></i> Mountain and sea View</li>
+            <li><i class="fa fa-long-arrow-right"></i> good senery with large view</li>
+            <li><i class="fa fa-long-arrow-right"></i> Neat and Clean atmosphere</li>
+          </ul>
+        </div>
+      </div><!-- /.single-room-dimention -->
+      <!-- .single-room-dimention -->
+      <div class="single-room-dimention terrace mix " data-bound="">
+        <div class="col-lg-7 col-md-12 img-wrap fl">
+          <div class="img-holder">
+            <img src="/assets/images/apartment/Apart2/43teraca.jpg" alt="Terrace">
+            <div class="room-size">
+              14.5 x 12
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 col-md-12 content fl">
+          <h2>Terrace</h2>
+          <p>sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. voluptatem. Ut enim ad minima veniam quis.</p>
+          <ul>
+            <li><i class="fa fa-long-arrow-right"></i> Mountain and sea View</li>
+            <li><i class="fa fa-long-arrow-right"></i> good senery with large view</li>
+            <li><i class="fa fa-long-arrow-right"></i> Neat and Clean atmosphere</li>
+          </ul>
+        </div>
+      </div><!-- /.single-room-dimention -->
+      <!-- .single-room-dimention -->
+      <div class="single-room-dimention masterroom mix" data-bound="">
+        <div class="col-lg-7 col-md-12 img-wrap fl">
+          <div class="img-holder">
+            <img src="/assets/images/apartment/Apart2/3dnevni.jpg" alt="Marter Room">
+            <div class="room-size">
+              14.5 x 12
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 col-md-12 content fl">
+          <h2>Master Room</h2>
+          <p>sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. voluptatem. Ut enim ad minima veniam quis.</p>
+          <ul>
+            <li><i class="fa fa-long-arrow-right"></i> Mountain and sea View</li>
+            <li><i class="fa fa-long-arrow-right"></i> good senery with large view</li>
+            <li><i class="fa fa-long-arrow-right"></i> Neat and Clean atmosphere</li>
+          </ul>
+        </div>
+      </div><!-- /.single-room-dimention -->
+      <!-- .single-room-dimention -->
+
+    </div>
+  </div>
+</section>
+<section id="gallery">
+  <div class="container">
+    <!-- .section-title -->
+    <div class="section-title text-center">
+      <span>Tour Of Our Villa</span>
+      <h2><span>Checkout villa photos</span></h2>
+    </div><!-- /.section-title -->
+    <!-- .gallery-filter -->
+    <ul class="gallery-filter text-center anim-5-all">
+      <li data-filter="all" class="gallery-sorter active">
+        <span>All assets/images</span>
+      </li>
+      <li data-filter=".master" class="gallery-sorter">
+        <span>Master</span>
+      </li>
+      <li data-filter=".kitchen" class="gallery-sorter">
+        <span>Kitchen</span>
+      </li>
+      <li data-filter=".bedroom" class="gallery-sorter">
+        <span>Bedroom</span>
+      </li>
+      <li data-filter=".bathroom" class="gallery-sorter">
+        <span>Bathroom</span>
+      </li>
+      <li data-filter=".yard" class="gallery-sorter">
+        <span>Yard</span>
+      </li>
+    </ul><!-- /.gallery-filter -->
+    <div class="row galerySkrol">
+      <!-- .image-gallery -->
+      <div class="image-gallery" data-filter-class="gallery-sorter" id="MixItUp5BB1F3">
+        <!-- .single-gallery -->
+        <div class="single-gallery anim-5-all bathroom all masonryImage mix span-8" style="display: inline-block;" data-bound="">
+          <div class="img-holder">
+            <img src="/assets/images/apartment/Apart2/28wc.jpg" alt="bathroom">
+            <div class="content">
+              <div class="image-view">
+                <a class="fancybox" href="/assets/images/apartment/Apart2/28wc.jpg">
+                  <i class="fa fa-camera"></i>
+                </a>
+              </div>
+              <div class="title-holder">
+                <h4>Bathroom</h4>
+              </div>
+              <div class="link-view">
+                <a href="#"><i class="fa fa-link"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="modal-content">
+            <div class="item-name">Bathroom</div>
+            <img src="/assets/images/apartment/Apart2/28wc.jpg" alt="bathroom" class="item-image">
+            <div class="item-text">
+              <p>sed quia non numquam eius modi tempora incidunt <br> ut labore et dolore magnam aliquam quaerat volup- ptatem. voluptatem. </p>
+              <ul>
+                <li><i class="fa fa-long-arrow-right"></i> Good Furniture in room</li>
+                <li><i class="fa fa-long-arrow-right"></i> Granite Stone on floor</li>
+                <li><i class="fa fa-long-arrow-right"></i> toilet is attached</li>
+              </ul>
+            </div>
+
+          </div>
+        </div><!-- /.single-gallery -->
+        <!-- .single-gallery -->
+        <div class="single-gallery anim-5-all all yard masonryImage mix span-4" style="display: inline-block;" data-bound="">
+          <div class="img-holder">
+            <img src="/assets/images/apartment/Apart1/68.jpg" alt="Yard">
+            <div class="content">
+              <div class="image-view">
+                <a class="fancybox" href="/assets/images/apartment/Apart1/68.jpg">
+                  <i class="fa fa-camera"></i>
+                </a>
+              </div>
+              <div class="title-holder">
+                <h4>Yard</h4>
+              </div>
+              <div class="link-view">
+                <a href="#"><i class="fa fa-link"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="modal-content">
+            <div class="item-name">Yard</div>
+            <img src="/assets/images/apartment/Apart1/68.jpg" alt="Yard" class="item-image">
+            <div class="item-text">
+              <p>sed quia non numquam eius modi tempora incidunt <br> ut labore et dolore magnam aliquam quaerat volup- ptatem. voluptatem. </p>
+              <ul>
+                <li><i class="fa fa-long-arrow-right"></i> Good Furniture in room</li>
+                <li><i class="fa fa-long-arrow-right"></i> Granite Stone on floor</li>
+                <li><i class="fa fa-long-arrow-right"></i> toilet is attached</li>
+              </ul>
+            </div>
+
+          </div>
+        </div><!-- /.single-gallery -->
+        <!-- .single-gallery -->
+        <div class="single-gallery anim-5-all all master masonryImage mix span-4" style="display: inline-block;" data-bound="">
+          <div class="img-holder">
+            <img src="/assets/images/apartment/Apart2/10sve.jpg" alt="Master room">
+            <div class="content">
+              <div class="image-view">
+                <a class="fancybox" href="/assets/images/apartment/Apart2/10sve.jpg">
+                  <i class="fa fa-camera"></i>
+                </a>
+              </div>
+              <div class="title-holder">
+                <h4>Master room</h4>
+              </div>
+              <div class="link-view">
+                <a href="#"><i class="fa fa-link"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="modal-content">
+            <div class="item-name">Master room</div>
+            <img src="/assets/images/apartment/Apart2/10sve.jpg" alt="Master room" class="item-image">
+            <div class="item-text">
+              <p>sed quia non numquam eius modi tempora incidunt <br> ut labore et dolore magnam aliquam quaerat volup- ptatem. voluptatem. </p>
+              <ul>
+                <li><i class="fa fa-long-arrow-right"></i> Good Furniture in room</li>
+                <li><i class="fa fa-long-arrow-right"></i> Granite Stone on floor</li>
+                <li><i class="fa fa-long-arrow-right"></i> toilet is attached</li>
+              </ul>
+            </div>
+
+          </div>
+        </div><!-- /.single-gallery -->
+        <!-- .single-gallery -->
+        <div class="single-gallery anim-5-all kitchen all masonryImage mix span-4" style="display: inline-block;" data-bound="">
+          <div class="img-holder">
+            <img src="/assets/images/apartment/Apart2/16duplokuhinja.jpg" alt="kitchen">
+            <div class="content">
+              <div class="image-view">
+                <a class="fancybox" href="/assets/images/apartment/Apart2/16duplokuhinja.jpg">
+                  <i class="fa fa-camera"></i>
+                </a>
+              </div>
+              <div class="title-holder">
+                <h4>Kitchen Room</h4>
+              </div>
+              <div class="link-view">
+                <a href="#"><i class="fa fa-link"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="modal-content">
+            <div class="item-name">Kitchen Room</div>
+            <img src="/assets/images/apartment/Apart2/16duplokuhinja.jpg" alt="Kitchen Room" class="item-image">
+            <div class="item-text">
+              <p>sed quia non numquam eius modi tempora incidunt <br> ut labore et dolore magnam aliquam quaerat volup- ptatem. voluptatem. </p>
+              <ul>
+                <li><i class="fa fa-long-arrow-right"></i> Good Furniture in room</li>
+                <li><i class="fa fa-long-arrow-right"></i> Granite Stone on floor</li>
+                <li><i class="fa fa-long-arrow-right"></i> toilet is attached</li>
+              </ul>
+            </div>
+
+          </div>
+        </div><!-- /.single-gallery -->
+        <!-- .single-gallery -->
+        <div class="single-gallery anim-5-all  bedroom all mix span-8" style="display: inline-block;" data-bound="">
+          <div class="img-holder">
+            <img src="/assets/images/apartment/Apart2/33soba.jpg" alt="bedroom">
+            <div class="content">
+              <div class="image-view">
+                <a class="fancybox" href="/assets/images/apartment/Apart2/33soba.jpg">
+                  <i class="fa fa-camera"></i>
+                </a>
+              </div>
+              <div class="title-holder">
+                <h4>Bed Room</h4>
+              </div>
+              <div class="link-view">
+                <a href="#"><i class="fa fa-link"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="modal-content">
+            <div class="item-name">Bed Room</div>
+            <img src="/assets/images/apartment/Apart2/33soba.jpg" alt="Bed Room" class="item-image">
+            <div class="item-text">
+              <p>sed quia non numquam eius modi tempora incidunt <br> ut labore et dolore magnam aliquam quaerat volup- ptatem. voluptatem. </p>
+              <ul>
+                <li><i class="fa fa-long-arrow-right"></i> Good Furniture in room</li>
+                <li><i class="fa fa-long-arrow-right"></i> Granite Stone on floor</li>
+                <li><i class="fa fa-long-arrow-right"></i> toilet is attached</li>
+              </ul>
+            </div>
+
+          </div>
+        </div><!-- /.single-gallery -->
+        <!-- .single-gallery -->
+        <div class="single-gallery anim-5-all  kitchen masonryImage mix span-4" style="display: inline-block;" data-bound="">
+          <div class="img-holder">
+            <img src="/assets/images/apartment/Apart2/22kuhinja.jpg" alt="kitchen">
+            <div class="content">
+              <div class="image-view">
+                <a class="fancybox" href="/assets/images/apartment/Apart2/22kuhinja.jpg">
+                  <i class="fa fa-camera"></i>
+                </a>
+              </div>
+              <div class="title-holder">
+                <h4>Kitchen</h4>
+              </div>
+              <div class="link-view">
+                <a href="#"><i class="fa fa-link"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="modal-content">
+            <div class="item-name">Kitchen</div>
+            <img src="/assets/images/apartment/Apart2/22kuhinja.jpg" alt="kitchen" class="item-image">
+            <div class="item-text">
+              <p>sed quia non numquam eius modi tempora incidunt <br> ut labore et dolore magnam aliquam quaerat volup- ptatem. voluptatem. </p>
+              <ul>
+                <li><i class="fa fa-long-arrow-right"></i> Good Furniture in room</li>
+                <li><i class="fa fa-long-arrow-right"></i> Granite Stone on floor</li>
+                <li><i class="fa fa-long-arrow-right"></i> toilet is attached</li>
+              </ul>
+            </div>
+
+          </div>
+        </div><!-- /.single-gallery -->
+        <!-- .single-gallery -->
+        <div class="single-gallery anim-5-all  bedroom masonryImage mix span-4" style="display: inline-block;" data-bound="">
+          <div class="img-holder">
+            <img src="/assets/images/apartment/Apart2/37soba.jpg" alt="bedroom">
+            <div class="content">
+              <div class="image-view">
+                <a class="fancybox" href="/assets/images/apartment/Apart2/37soba.jpg">
+                  <i class="fa fa-camera"></i>
+                </a>
+              </div>
+              <div class="title-holder">
+                <h4>Bedroom</h4>
+              </div>
+              <div class="link-view">
+                <a href="#"><i class="fa fa-link"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="modal-content">
+            <div class="item-name">Bedroom</div>
+            <img src="/assets/images/apartment/Apart2/37soba.jpg" alt="bedroom" class="item-image">
+            <div class="item-text">
+              <p>sed quia non numquam eius modi tempora incidunt <br> ut labore et dolore magnam aliquam quaerat volup- ptatem. voluptatem. </p>
+              <ul>
+                <li><i class="fa fa-long-arrow-right"></i> Good Furniture in room</li>
+                <li><i class="fa fa-long-arrow-right"></i> Granite Stone on floor</li>
+                <li><i class="fa fa-long-arrow-right"></i> toilet is attached</li>
+              </ul>
+            </div>
+
+          </div>
+        </div><!-- /.single-gallery -->
+      </div><!-- /.image-gallery -->
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="section-title text-center">
+    <span>Looking for your next home sweet home?</span>
+    <h2><span>Contact</span></h2>
+  </div>
+  <div class="site-section border-bottom conntactSection">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-12 col-sm-12 col-lg-5 mt-5 ml-auto">
+
+
+
+          <form action="{{route('contact.store')}}" method="post">
+            {{ csrf_field() }}
+            <div class="row form-group">
+              <div class="col-md-12 mb-3 mb-md-0">
+                <input type="text" name="aptName" placeholder="Apartment II" class="form-control" disabled>
+              </div>
+            </div>
+            <div class="row form-group">
+              <div class="col-md-12 mb-3 mb-md-0">
+                <label class="font-weight-bold" for="fullname">Full Name</label>
+                <input type="text" name="name" id="fullname" class="form-control" placeholder="Full Name">
+              </div>
+            </div>
+            <div class="row form-group">
+              <div class="col-md-12">
+                <label class="font-weight-bold" for="email">Email</label>
+                <input type="email" name="email" id="email" class="form-control" placeholder="Email Address">
+              </div>
+            </div>
+            <div class="row form-group">
+              <div class="col-md-12">
+                <label class="font-weight-bold" for="email">Subject</label>
+                <input type="text" name="subject" id="subject" class="form-control" placeholder="Enter Subject">
+              </div>
+            </div>
+
+
+            <div class="row form-group">
+              <div class="col-md-12">
+                <label class="font-weight-bold" for="message">Message</label>
+                <textarea name="message" id="message" cols="30" rows="5" class="form-control" placeholder="Say hello to us"></textarea>
+              </div>
+            </div>
+
+            <div class="row form-group">
+              <div class="col-md-12">
+                <input type="submit" value="Send Message" class="btn btn-primary py-3 px-4">
+              </div>
+            </div>
+
+
+          </form>
+        </div>
+
+        <div class="col-lg-7 col-md-12 col-sm-12 ml-auto">
+          <div class="p-4 mb-3 ">
+            <iframe src="https://calendar.google.com/calendar/b/3/embed?height=600&amp;wkst=1&amp;bgcolor=%23ead7be&amp;ctz=Europe%2FBelgrade&amp;src=YmRsMWMyZDFpNGh0MGl2MTZ1dTVlOHJpMTRmNnIyOWJAaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%23B39DDB&amp;showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showTz=0&amp;showCalendars=0" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+@endsection

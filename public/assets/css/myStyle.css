@@ -1,0 +1,456 @@
+/*======== 4. gallery filter Styles ===========*/
+.gallery-filter {
+    border-top: 1px solid #a5a8ac;
+    border-bottom: 1px solid #a5a8ac;
+    margin-top: 43px;
+    margin-bottom: 30px;
+}
+.gallery-filter li {
+    display: inline;
+}
+.gallery-filter li:after {
+    content: "/";
+    display: inline-block;
+    color: #666;
+    margin: 0 10px;
+}
+.gallery-filter li:last-child:after {
+    content: "";
+}
+.gallery-filter li.active span,
+.gallery-filter li:hover span {
+    color: #127fce;
+}
+.gallery-filter li.active span:after,
+.gallery-filter li:hover span:after,
+.gallery-filter li.active span:before,
+.gallery-filter li:hover span:before {
+    width: 100%;
+}
+.gallery-filter li span {
+    display: inline-block;
+    font-size: 13px;
+    line-height: 51px;
+    color: #666666;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 0 10px;
+    position: relative;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.gallery-filter li span:after {
+    content: " ";
+    width: 0%;
+    height: 1px;
+    background: #127fce;
+    position: absolute;
+    top: -1px;
+    left: 0;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.gallery-filter li span:before {
+    content: " ";
+    width: 0%;
+    height: 1px;
+    background: #127fce;
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.anim-5,
+.anim-5-all * {
+    transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+/*======== 3. section title Styles ===========*/
+.section-title-wrap {
+    padding: 80px 0;
+}
+.section-title-wrap.gray-background {
+    background: #f2f2f2;
+}
+.section-title-wrap .section-title {
+    margin-bottom: 0;
+}
+.section-title-wrap .section-title p {
+    margin-bottom: 0;
+}
+.section-title {
+    margin-top: -5px;
+    margin-bottom: 18px;
+}
+.section-title > span {
+    font-size: 15px;
+    color: #7e7e7e;
+    font-family: "PT Serif", sans-serif;
+    font-style: italic;
+    line-height: 21px;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+.section-title h2 {
+    font-family: "Raleway", sans-serif;
+    color: #282828;
+    font-size: 22px;
+    text-transform: uppercase;
+    line-height: 22px;
+    font-weight: 800;
+    display: block;
+}
+.section-title h2 span {
+    display: block;
+}
+.section-title h2:after {
+    content: " ";
+    background: #ffae00;
+    height: 2px;
+    width: 85px;
+    display: inline-block;
+}
+.section-title p {
+    font-size: 15px;
+    color: #797979;
+    line-height: 26px;
+    margin-top: 38px;
+}
+/*======== 11. image-gallery Styles ===========*/
+.image-gallery {
+    position: relative;
+}
+.image-gallery .single-gallery {
+    padding: 0 15px;
+    margin-bottom: 30px;
+    float: left;
+    box-sizing: border-box;
+}
+.image-gallery .single-gallery.mix {
+    display: none;
+}
+.image-gallery .single-gallery.span-8 {
+    width: 63.66666667%;
+}
+.image-gallery .single-gallery.span-6 {
+    width: 50%;
+}
+.image-gallery .single-gallery.span-4 {
+    width: 33.33333333%;
+}
+.image-gallery .single-gallery.span-3 {
+    width: 25%;
+}
+.single-gallery:hover .img-holder img {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.single-gallery:hover .img-holder .content .title-holder {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+.single-gallery:hover .img-holder .content .image-view {
+    top: 0%;
+}
+.single-gallery:hover .img-holder .content .link-view {
+    bottom: 0%;
+}
+.single-gallery .img-holder {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.single-gallery .img-holder img {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+.single-gallery .img-holder .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+}
+.single-gallery .img-holder .content .title-holder {
+    display: table;
+    width: 100%;
+    height: 25%;
+    position: absolute;
+    top: 37%;
+    background: rgba(232, 162, 12, 0.75);
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.single-gallery .img-holder .content .title-holder h4 {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    display: table-cell;
+    vertical-align: middle;
+}
+.single-gallery .img-holder .content .image-view {
+    display: table;
+    width: 100%;
+    height: 25%;
+    position: absolute;
+    top: -25%;
+    background: rgba(232, 162, 12, 0.55);
+}
+.single-gallery .img-holder .content .image-view a {
+    color: #fff;
+    font-size: 20px;
+    display: table-cell;
+    vertical-align: middle;
+}
+.single-gallery .img-holder .content .link-view {
+    display: table;
+    width: 100%;
+    height: 25%;
+    position: absolute;
+    bottom: -25%;
+    background: rgba(232, 162, 12, 0.55);
+}
+.single-gallery .img-holder .content .link-view a {
+    color: #fff;
+    font-size: 20px;
+    display: table-cell;
+    vertical-align: middle;
+}
+.single-gallery .modal-content {
+    display: none;
+}
+/*======== 12. room-dimention Styles ===========*/
+#room-dimention {
+    padding: 80px 0;
+    background: #ffffff;
+}
+#room-dimention .gallery-filter {
+    border: none;
+    margin-bottom: 40px;
+}
+#room-dimention .gallery-filter li span {
+    line-height: 30px;
+}
+#room-dimention .gallery-filter li span:after {
+    display: none;
+}
+.single-room-dimention {
+    display: none;
+}
+.single-room-dimention .img-holder {
+    position: relative;
+}
+.single-room-dimention .img-holder:before {
+    content: " ";
+    position: absolute;
+    top: 9px;
+    left: 9px;
+    right: 9px;
+    bottom: 9px;
+    border: 2px solid #fff;
+}
+.single-room-dimention .img-holder .room-size {
+    display: inline-block;
+    background: #fff;
+    position: absolute;
+    bottom: 9px;
+    left: 9px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #343434;
+    line-height: 55px;
+    padding: 0 15px;
+}
+.single-room-dimention .content {
+    background: #f0f0f0;
+    padding: 50px 45px;
+    position: relative;
+    top: 40px;
+    right: 55px;
+}
+.single-room-dimention .content:before {
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    right: 8px;
+    bottom: 8px;
+    border: 1px solid #fff;
+}
+.single-room-dimention .content h2 {
+    font-size: 22px;
+    color: #282828;
+    line-height: 22px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 22px;
+}
+.single-room-dimention .content p {
+    font-size: 15px;
+    line-height: 26px;
+    color: #797979;
+}
+.single-room-dimention .content ul li {
+    font-size: 13px;
+    line-height: 35px;
+    color: #2b2b2b;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.single-room-dimention .content ul li .fa {
+    color: #eb9500;
+    margin-right: 10px;
+}
+/*======== 10. gallery Styles ===========*/
+#gallery {
+    padding: 80px 0 50px;
+    background: #f2f2f2;
+}
+
+.si:hover {
+    background-color: #e0c59e;
+}
+footer {
+    padding: 3%;
+    background-color: #f2f2f2;
+}
+.conntactSection {
+    /*     background-color: #f2f2f2;
+ */
+}
+.map {
+    width: 100%;
+    height: 20%;
+}
+.map iframe {
+    width: 100%;
+}
+.browse {
+    background-color: #f2f2f2;
+}
+.img-holder img {
+    width: 100%;
+}
+.img-holder {
+    width: 100%;
+}
+.galerySkrol {
+    height: 100vh;
+    overflow: scroll;
+}
+::-webkit-scrollbar {
+    width: 7px;
+    background: transparent;
+}
+::-webkit-scrollbar-track {
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    background: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background: #ead7be;
+    border-radius: 5px;
+}
+#contact {
+    background-color: #ffffff;
+    padding: 80px 0 50px;
+}
+.dropdown li a {
+    color: #d09d6e;
+}
+
+.menu-wrap {
+    position: fixed;
+    top: 4%;
+    right: 3%;
+    z-index: 111;
+}
+
+.menu-wrap .toggler {
+    position: absolute;
+    top: 4%;
+    right: 3%;
+    z-index: 112;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    opacity: 0;
+}
+
+.menu-wrap .hamburger {
+    position: relative;
+
+    z-index: 111;
+    width: 60px;
+    height: 60px;
+    padding: 1rem;
+    background: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(0%, -23%);
+}
+/* Hamburger Line */
+.menu-wrap .hamburger > div {
+    position: relative;
+    flex: none;
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.4s ease;
+}
+
+/* Hamburger Lines - Top & Bottom */
+.menu-wrap .hamburger > div::before,
+.menu-wrap .hamburger > div::after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: -10px;
+    width: 100%;
+    height: 2px;
+    background: inherit;
+}
+
+/* Moves Line Down */
+.menu-wrap .hamburger > div::after {
+    top: 10px;
+}
+
+/* Toggler Animation */
+.menu-wrap .toggler:checked + .hamburger > div {
+    transform: rotate(135deg);
+}
+
+/* Turns Lines Into X */
+.menu-wrap .toggler:checked + .hamburger > div:before,
+.menu-wrap .toggler:checked + .hamburger > div:after {
+    top: 0;
+    transform: rotate(90deg);
+}
+
+/* Rotate On Hover When Checked */
+.menu-wrap .toggler:checked:hover + .hamburger > div {
+    transform: rotate(225deg);
+}
+
+.toggler:checked ~ .site-mobile-menu {
+    transform: translate(0%, -10%);
+}
+.toggler:checked ~ .hamburger > div {
+    background: black;
+}
+.menu-wrap {
+    visibility: hidden;
+}
