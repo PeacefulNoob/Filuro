@@ -1,6 +1,36 @@
 @extends('layouts.main')
 @section('index.css')
 @endsection
+
+@section('head_index')
+<title>  Filuro About Page | Charming & Beautiful Apartments in Kotor </title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="Find out about our lovely apartments. Modern Style. Cozy Atmosphere. Beautiful apartments, for beautiful personalities.">
+<meta name="keywords" content="real estate,apartments,apartment,about,house,summer,crna gora,montenegro,enjoy,winter,top,luxury,afordable,reasonable,kotor,sea,house,lovely,cheap">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="author" content="PeacefulNoob">
+
+<meta property="og:image" content="https://www.filuro.com/assets/images/logoBrow.png" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://filuro.com/about" />
+<meta property="og:title" content="Apartments Filuro | About " />
+<meta property="og:description" content="Lovely apartments in Kotor historical centre - Book with us. Modern Style. Cozy Atmosphere. " />
+
+
+<link rel="icon" type="image/png" href="/assets/images/logoBrow.png" />
+<link rel="apple-touch-icon-precomposed" href="/assets/images/logoBrow.png" type="image/png" sizes="152x152" />
+<link rel="apple-touch-icon-precomposed" href="/assets/images/logoBrow.png" type="image/png" sizes="120x120" />
+<link rel="apple-touch-icon" href="/assets/images/logoBrow.png" sizes="180x180" />
+
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@nytimesbits" />
+<meta name="twitter:creator" content="@nickbilton" />
+
+@endsection
+
+
 @section('content')
 @yield('index.css')
 
@@ -26,7 +56,7 @@
     <div class="row align-items-center justify-content-center">
       <div class="col-md-7 text-center" data-aos="fade-up" data-aos-delay="400">
         <h1 class="text-white">About Us</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <p>Filuro Apartments is a family business established in 2009.</p>
       </div>
     </div>
   </div>
@@ -41,8 +71,8 @@
       <div class="col-lg-6">
         <div class="site-section-heading text-center mb-5 w-border col-md-6 mx-auto">
           <h2 class="mb-5">Our Office</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, fugit nam obcaecati fuga itaque deserunt
-            officia, error reiciendis ab quod?</p>
+          <p>            We are here to help you with your next holiday and we take care to ensure you are matched with your ideal holiday accommodation.
+                      All holiday rental properties inspected and known intimately and we use this information to answer any questions you may have.</p>
         </div>
       </div>
     </div>

@@ -1,6 +1,36 @@
 @extends('layouts.main')
 @section('index.css')
 @endsection
+
+@section('head_index')
+<title>  Filuro Stylish Apartment II | Charming & Beautiful Apartment in Kotor </title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="Take a look at our beautiful and fresh apartments. Modern Style. Cozy Atmosphere. Beautiful apartments, for beautiful personalities.">
+<meta name="keywords" content="real estate,apartments,apartment,about,house,summer,crna gora,montenegro,enjoy,winter,top,luxury,afordable,reasonable,kotor,sea,house,lovely,cheap">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="author" content="PeacefulNoob">
+
+<meta property="og:image" content="https://www.filuro.com/assets/images/logoBrow.png" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://filuro.com/stylish" />
+<meta property="og:title" content="Apartments Filuro | Stylish Apartment II " />
+<meta property="og:description" content="Lovely apartments in Kotor historical centre - Book with us. Modern Style. Memorable Experience. Cozy Atmosphere. " />
+
+
+<link rel="icon" type="image/png" href="/assets/images/logoBrow.png" />
+<link rel="apple-touch-icon-precomposed" href="/assets/images/logoBrow.png" type="image/png" sizes="152x152" />
+<link rel="apple-touch-icon-precomposed" href="/assets/images/logoBrow.png" type="image/png" sizes="120x120" />
+<link rel="apple-touch-icon" href="/assets/images/logoBrow.png" sizes="180x180" />
+
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@nytimesbits" />
+<meta name="twitter:creator" content="@nickbilton" />
+
+
+@endsection
+
 @section('content')
 @yield('index.css')
 

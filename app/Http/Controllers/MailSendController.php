@@ -52,7 +52,7 @@ class MailSendController extends Controller
         $data['email'] = $request->email;
 
 
-        Mail::send('emails.contact-message.main', $data, function ($message) use ($request) {
+        Mail::send('emails.contact-message-main', $data, function ($message) use ($request) {
             $message->from($request->email, $request->name)
                 ->subject('Filuro Apt Website');
             $message->sender($request->email, $request->name);

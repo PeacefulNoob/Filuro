@@ -1,6 +1,32 @@
 @extends('layouts.main')
 @section('index.css')
 @endsection
+@section('head_index')
+<title>  Filuro | Charming & Beautiful Apartments in Kotor </title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="Lovely apartments in Kotor historical centre - Book with us. Modern Style. Cozy Atmosphere. Beautiful apartments, for beautiful personalities.">
+<meta name="keywords" content="real estate,apartments,apartment,house,summer,crna gora,montenegro,enjoy,winter,top,luxury,afordable,reasonable,kotor,sea,house,lovely,cheap">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="author" content="PeacefulNoob">
+
+<meta property="og:image" content="https://www.filuro.com/assets/images/logoBrow.png" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://filuro.com" />
+<meta property="og:title" content="Apartments Filuro" />
+<meta property="og:description" content="Lovely apartments in Kotor historical centre - Book with us. Modern Style. Memorable Experience. Cozy Atmosphere. " />
+
+
+<link rel="icon" type="image/png" href="/assets/images/logoBrow.png" />
+<link rel="apple-touch-icon-precomposed" href="/assets/images/logoBrow.png" type="image/png" sizes="152x152" />
+<link rel="apple-touch-icon-precomposed" href="/assets/images/logoBrow.png" type="image/png" sizes="120x120" />
+<link rel="apple-touch-icon" href="/assets/images/logoBrow.png" sizes="180x180" />
+
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@nytimesbits" />
+<meta name="twitter:creator" content="@nickbilton" />
+@endsection
 @section('content')
 @yield('index.css')
 
@@ -35,8 +61,9 @@
     <div class="row">
       <div class="site-section-heading text-center mb-5 w-border col-md-6 mx-auto" data-aos="fade-up">
         <h2 class="mb-5">Featured Apartments</h2>
-        <p>The modern living, the spacious living.Beauty, Passion, Breathtaking Apartments.Beautiful apartments, for beautiful personalities.
 
+        <p>
+Filuro Apartments is a small residential complex of 4 apartments located at the area of Kotor, 60 meters from the sea. It is ideal for families or couples who are looking for luxury and relaxing vacation next to the sea.
         </p>
       </div>
     </div>
@@ -62,7 +89,7 @@
         </a>
 
         <a href="charming" class="col2-row2 unit-9 no-height" data-aos="fade-up" data-aos-delay="300">
-          <div class="image" style="background-image: url('assets/images/img_1.jpg');"></div>
+          <div class="image" style="background-image: url('assets/images/apartment/Apart2/48duplo.jpg');"></div>
           <div class="unit-9-content">
             <h2>Apartment III</h2>
             <span>$1,290/night</span>
@@ -81,8 +108,7 @@
     <div class="row">
       <div class="site-section-heading text-center mb-5 w-border col-md-6 mx-auto">
         <h2 class="mb-5">Browse Apartments</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, fugit nam obcaecati fuga itaque deserunt
-          officia, error reiciendis ab quod?</p>
+        <p>The complex offers a big garden, parking facilities as well as a large common yard with a large swimming pool.</p>
       </div>
     </div>
     <div class="row">
@@ -108,7 +134,7 @@
       </div>
       <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
         <a href="charming" class="unit-9">
-          <div class="image" style="background-image: url('assets/images/img_3.jpg');"></div>
+          <div class="image" style="background-image: url('assets/images/apartment/Apart2/48duplo.jpg');"></div>
           <div class="unit-9-content">
             <h2>Apartment III</h2>
             <span>$130/night</span>
@@ -117,7 +143,7 @@
       </div>
       <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="400">
         <a href="apartment-detail" class="unit-9">
-          <div class="image" style="background-image: url('assets/images/img_4.jpg');"></div>
+          <div class="image" style="background-image: url('assets/images/apartment/Apart2/48duplo.jpg');"></div>
           <div class="unit-9-content">
             <h2>Apartment IV</h2>
             <span>$150/night</span>
@@ -136,7 +162,7 @@
 
 
 
-<div class="site-section block-13">
+{{-- <div class="site-section block-13">
   <div class="container" data-aos="fade-up">
     <div class="row">
       <div class="site-section-heading text-center mb-5 w-border col-md-6 mx-auto">
@@ -209,7 +235,7 @@
     </div>
   </div>
 </div>
-
+ --}}
 
 
 
