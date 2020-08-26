@@ -62,9 +62,9 @@
             </div>
         </div>
     </div> -->
-    <div id="global-loader">
+{{--     <div id="global-loader">
         <img src="/assets/images/logoBrow.png" class="loader-img floating" alt="Pocetna">
-    </div>
+    </div> --}}
     @include('layouts.header')
 
     @yield('content')

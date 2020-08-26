@@ -31,7 +31,7 @@ jQuery(document).ready(function ($) {
             }
         });
 
-       
+
     };
     siteMenuClone();
 
@@ -47,9 +47,9 @@ jQuery(document).ready(function ($) {
         });
         $("#amount").val(
             "$" +
-                $("#slider-range").slider("values", 0) +
-                " - $" +
-                $("#slider-range").slider("values", 1)
+            $("#slider-range").slider("values", 0) +
+            " - $" +
+            $("#slider-range").slider("values", 1)
         );
     };
     // siteSliderRange();
@@ -108,7 +108,7 @@ jQuery(document).ready(function ($) {
             });
         }
 
-     
+
     };
     siteCarousel();
 });
@@ -127,8 +127,7 @@ $(document).ready(function () {
 
             // Using jQuery's animate() method to add smooth page scroll
             // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-            $("html, body").animate(
-                {
+            $("html, body").animate({
                     scrollTop: $(hash).offset().top,
                 },
                 800,
@@ -140,5 +139,27 @@ $(document).ready(function () {
                 }
             );
         } // End if
+    });
+});
+let mainNavLinks = document.querySelectorAll(".navS ul li a");
+let mainSections = document.querySelectorAll("main section");
+
+let lastId;
+let cur = [];
+
+window.addEventListener("scroll", event => {
+    let fromTop = window.scrollY;
+
+    mainNavLinks.forEach(link => {
+        let section = document.querySelector(link.hash);
+
+        if (
+            section.offsetTop <= fromTop &&
+            section.offsetTop + section.offsetHeight > fromTop
+        ) {
+            link.classList.add("current");
+        } else {
+            link.classList.remove("current");
+        }
     });
 });

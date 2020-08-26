@@ -1,10 +1,11 @@
 @media (min-width: 768px) {
     .site-section {
-        padding: 7em 0;
+        padding: 1em 0;
     }
 }
 
 @media (max-width: 767.98px) {
+
     .display-3,
     .display-2,
     .display-4 {
@@ -29,6 +30,7 @@
         height: 500px !important;
         margin-bottom: 15px;
     }
+
     .menu-wrap {
         visibility: visible !important;
     }
@@ -37,6 +39,7 @@
 .site-footer {
     padding: 3em 3em 0;
 }
+
 @media (min-width: 768px) {
     .site-footer {
         padding: 3em 3em 0;
@@ -52,7 +55,9 @@
         font-size: 20px !important;
     }
 }
+
 @media (max-width: 767.98px) {
+
     .site-block-retro .col1,
     .site-block-retro .col2 {
         width: 100%;

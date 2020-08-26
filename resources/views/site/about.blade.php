@@ -62,7 +62,7 @@
   </div>
 </div>
 
-<div class="site-section">
+<div class="site-section about">
   <div class="container">
     <div class="row">
       <div class="col-lg-6">

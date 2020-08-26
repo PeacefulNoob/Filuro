@@ -4,7 +4,7 @@
             <div class="col-lg-4">
                 <div class="mb-5">
                     <h3 class="footer-heading mb-4">About Apart</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe pariatur reprehenderit vero atque, consequatur id ratione, et non dignissimos culpa? Ut veritatis, quos illum totam quis blanditiis, minima minus odio!</p>
+                    <p>We are here to help you with your next holiday and we take care to ensure you are matched with your ideal holiday accommodation. All holiday rental properties inspected and known intimately and we use this information to answer any questions you may have.</p>
                 </div>
 
             </div>
@@ -39,7 +39,7 @@
             <div class="col-md-12">
                 <p>
 
-                    </script> All rights reserved | Filuro
+                 All rights reserved | Filuro
                 </p>
             </div>
 
