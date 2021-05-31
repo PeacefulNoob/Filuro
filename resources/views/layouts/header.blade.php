@@ -15,8 +15,10 @@
                         <li class="active">
                             <a href="/">Home</a>
                         </li>
-                        <li><a href="about">About</a></li>
-                        <li class="has-children">Apartments<i class="fa fa-caret-down"></i>
+                        <li><a href="/about">About</a></li>
+                        <li><a href="/experiences">Experiences</a></li>
+                        <li><a href="/offers">Offers</a></li>
+                       {{--  <li class="has-children">Apartments<i class="fa fa-caret-down"></i>
                          <ul class="dropdown ">
                                 <li><a href="charming">Apart I</a></li>
                                 <li><a href="stylish">Apart II</a></li>
@@ -24,8 +26,8 @@
                                 <li><a href="charming">Apart IV</a></li>
 
                             </ul>
-                        </li>
-                        <li><a href="contact">Contact</a></li>
+                        </li> --}}
+                        <li><a href="/contact">Contact</a></li>
                     </ul>
                 </nav>
             </div>

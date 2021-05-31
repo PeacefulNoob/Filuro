@@ -604,3 +604,20 @@ aside ul li a span {
     padding-top: 5rem;
 
 }
+.image-exp {
+    border-radius: 5px;
+}
+.item-details h5 {
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #262626;
+    margin-bottom: 10px;
+}
+.item-details p {
+    margin-bottom: 10px;
+    color: #262626;
+    font-size: 14px;
+}
+.owl-nav {
+    display:none !important;
+}

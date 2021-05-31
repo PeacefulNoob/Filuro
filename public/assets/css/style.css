@@ -1046,3 +1046,67 @@ figure figcaption {
 .socials {
     margin-top: -10px;
 }
+
+/* 3.4. ========================= Counter ========================= */
+
+.themeioan_counter {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    margin:0px 0px 15px 0px;
+}
+.counter-number {
+    position:Relative;
+    display:inline-block;
+}
+.themeioan_counter .countersub {
+position:absolute;
+    right:-25px;
+    top:-10px;
+    font-size:30px;
+    font-weight:500;
+}
+.themeioan_counter h4 {
+    font-size: 50px;
+    line-height: 50px;
+}
+.black-text .themeioan_counter h4 {
+    color:#1d2228;
+}
+
+.themeioan_counter p {
+    margin: 0px;
+    line-height: 22px;
+}
+
+.wrap-bg-second .themeioan_counter {
+    padding: 30px 10px;
+    background-color: rgb(255, 255, 255, .05);
+}
+
+
+
+.wrap-padding {
+    max-width: 750px;
+}
+
+.container-white,
+.container-black {
+    padding:76px 112px 85px 106px;
+    margin-top:120px;
+    margin-bottom:120px;
+}
+.container-white {
+    background:#fff;
+}
+
+.container-black {
+    background:#1c1b1f;
+    color:#fff;
+}
+.wrap-bg-dark {
+    background-color: #f2f2f2;
+}

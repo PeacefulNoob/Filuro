@@ -25,6 +25,12 @@ Route::get('stylish', function () {
 Route::get('about', function () {
     return view('site.about');
 });
+Route::get('experiences', function () {
+    return view('site.experiences');
+});
+Route::get('offers', function () {
+    return view('site.offers');
+});
 Route::get('apartments', function () {
     return view('site.apartments');
 });

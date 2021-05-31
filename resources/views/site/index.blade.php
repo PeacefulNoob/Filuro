@@ -54,16 +54,15 @@
   </div>
 </div>
 
-<div class="site-section" id="section-1">
+<div class="site-section mt-5" id="section-1">
 
   <div class="container">
 
     <div class="row">
       <div class="site-section-heading text-center mb-5 w-border col-md-6 mx-auto" data-aos="fade-up">
         <h2 class="mb-5">Featured Apartments</h2>
-
         <p>
-Filuro Apartments is a small residential complex of 4 apartments located at the area of Kotor, 60 meters from the sea. It is ideal for families or couples who are looking for luxury and relaxing vacation next to the sea.
+          Filuro Apartments is a small residential complex of 4 apartments located at the area of Kotor, 60 meters from the sea. It is ideal for families or couples who are looking for luxury and relaxing vacation next to the sea.
         </p>
       </div>
     </div>
@@ -103,7 +102,66 @@ Filuro Apartments is a small residential complex of 4 apartments located at the 
   </div>
 </div>
 
-<div class="site-section browse">
+ <!-- Counter area end -->  
+ <div class="wrap-bg mt-5 py-5" style="background: #f2f2f2;">
+  <div class="container">
+      <div class="row">
+
+          <div class="col-lg-6">
+              <div class="section-title with-p m-0">
+                  <h2>Ovaj Tekst<br>
+                     Takodje treba</h2>
+              </div>
+          </div>
+          <div class="col-lg-6">
+              <div class="row">
+                  <!-- #counter -->
+                  <div class="col-xs-12 col-sm-12 col-md-4">
+                      <div class="info">
+                          <!-- 1 -->
+                          <div class="themeioan_counter"><!-- single counter item -->
+                              <div class="counter-number">
+                                  <h4>80</h4>
+                                  <div class="countersub">X</div>
+                              </div>
+                              <p>Reservations</p>
+                          </div><!-- end single counter item -->
+                      </div>
+                  </div>
+                  <div class="col-xs-12 col-sm-12 col-md-4">
+                      <!-- .row -->
+                      <div class="info">
+                          <!-- 2 -->
+                          <div class="themeioan_counter"><!-- single counter item -->
+                              <div class="counter-number">
+                                  <h4>60</h4>
+                                  <div class="countersub">X</div>
+                              </div>
+                              <p>AIRBNB SCORE</p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-xs-12 col-sm-12 col-md-4">
+                      <div class="info">
+                          <!-- 3 -->
+                          <div class="themeioan_counter"><!-- single counter item -->
+                              <div class="counter-number">
+                                  <h4>30</h4>
+                                  <div class="countersub">X</div>
+                              </div>
+                              <p>Ne znam</p>
+                          </div><!-- end single counter item -->
+                      </div>
+                  </div>
+                  <!-- .row end -->
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+<!-- #counter area end -->
+
+{{-- <div class="site-section browse">
   <div class="container">
     <div class="row">
       <div class="site-section-heading text-center mb-5 w-border col-md-6 mx-auto">
@@ -157,94 +215,10 @@ Filuro Apartments is a small residential complex of 4 apartments located at the 
     </div>
   </div>
 </div>
-
-
-
-
-
-{{-- <div class="site-section block-13">
-  <div class="container" data-aos="fade-up">
-    <div class="row">
-      <div class="site-section-heading text-center mb-5 w-border col-md-6 mx-auto">
-        <h2 class="mb-5">Love By Our Customers</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, fugit nam obcaecati fuga itaque deserunt officia, error reiciendis ab quod?</p>
-      </div>
-    </div>
-    <div class="nonloop-block-13 owl-carousel">
-
-      <div class="text-center p-3 p-md-5 bg-white">
-        <div class="mb-4">
-          <img src="assets/images/person_1.jpg" alt="Image" class="w-50 mx-auto img-fluid rounded-circle">
-        </div>
-        <div class="text-black">
-          <h3 class="font-weight-light h5">Megan Smith</h3>
-          <p class="font-italic">&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, iusto. Aliquam illo, cum sed ea? Ducimus quos, ea?&rdquo;</p>
-        </div>
-      </div>
-
-      <div class="text-center p-3 p-md-5 bg-white">
-        <div class="mb-4">
-          <img src="assets/images/person_2.jpg" alt="Image" class="w-50 mx-auto img-fluid rounded-circle">
-        </div>
-        <div class="text-black">
-          <h3 class="font-weight-light h5">Brooke Cagle</h3>
-          <p class="font-italic">&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, iusto. Aliquam illo, cum sed ea? Ducimus quos, ea?&rdquo;</p>
-        </div>
-      </div>
-
-      <div class="text-center p-3 p-md-5 bg-white">
-        <div class="mb-4">
-          <img src="assets/images/person_3.jpg" alt="Image" class="w-50 mx-auto img-fluid rounded-circle">
-        </div>
-        <div class="text-black">
-          <h3 class="font-weight-light h5">Kim</h3>
-          <p class="font-italic">&ldquo;Sveto’s place is lovely, clean & spacious! He was an amazing host - extremely helpful and always replied to us quickly! I definitely recommend staying here!&rdquo;</p>
-        </div>
-      </div>
-
-      <div class="text-center p-3 p-md-5 bg-white">
-        <div class="mb-4">
-          <img src="assets/images/person_1.jpg" alt="Image" class="w-50 mx-auto img-fluid rounded-circle">
-        </div>
-        <div class="text-black">
-          <h3 class="font-weight-light h5">Dale</h3>
-          <p class="font-italic">&ldquo;Want a perfect place to relax near Kotor?? Do yourselves a favour and book Sveto's place! It's the perfect bolthole after a day of touring the sights of Kotor and the surrounding area. The apartment is located on the ground floor with private access. Parking is on the side of the road outside but is readily available with no problems finding a place. &rdquo;</p>
-        </div>
-      </div>
-
-      <div class="text-center p-3 p-md-5 bg-white">
-        <div class="mb-4">
-          <img src="assets/images/person_2.jpg" alt="Image" class="w-50 mx-auto img-fluid rounded-circle">
-        </div>
-        <div class="text-black">
-          <h3 class="font-weight-light h5">Nathan Dumlao</h3>
-          <p class="font-italic">&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, iusto. Aliquam illo, cum sed ea? Ducimus quos, ea?&rdquo;</p>
-        </div>
-      </div>
-
-      <div class="text-center p-3 p-md-5 bg-white">
-        <div class="mb-4">
-          <img src="assets/images/person_4.jpg" alt="Image" class="w-50 mx-auto img-fluid rounded-circle">
-        </div>
-        <div class="text-black">
-          <h3 class="font-weight-light h5">Brook Smith</h3>
-          <p class="font-italic">&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, iusto. Aliquam illo, cum sed ea? Ducimus quos, ea?&rdquo;</p>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</div>
  --}}
 
 
-
-
-
-
-
-
-
+ 
 </div>
 
 

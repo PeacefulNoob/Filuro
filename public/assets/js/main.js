@@ -3,9 +3,6 @@ AOS.init({
     easing: "slide",
     once: true,
 });
-/* $(function () {
-    $("#datepicker").datepicker();
-}); */
 
 jQuery(document).ready(function ($) {
     "use strict";
@@ -35,82 +32,7 @@ jQuery(document).ready(function ($) {
     };
     siteMenuClone();
 
-    var siteSliderRange = function () {
-        $("#slider-range").slider({
-            range: true,
-            min: 0,
-            max: 500,
-            values: [75, 300],
-            slide: function (event, ui) {
-                $("#amount").val("$" + ui.values[0] + " - $" + ui.values[1]);
-            },
-        });
-        $("#amount").val(
-            "$" +
-            $("#slider-range").slider("values", 0) +
-            " - $" +
-            $("#slider-range").slider("values", 1)
-        );
-    };
-    // siteSliderRange();
 
-    var siteCarousel = function () {
-        if ($(".nonloop-block-13").length > 0) {
-            $(".nonloop-block-13").owlCarousel({
-                center: false,
-                items: 1,
-                loop: true,
-                stagePadding: 0,
-                autoplay: true,
-                margin: 20,
-                nav: false,
-                dots: true,
-                navText: [
-                    '<span class="icon-arrow_back">',
-                    '<span class="icon-arrow_forward">',
-                ],
-                responsive: {
-                    600: {
-                        margin: 20,
-                        stagePadding: 0,
-                        items: 1,
-                    },
-                    1000: {
-                        margin: 20,
-                        stagePadding: 0,
-                        items: 2,
-                    },
-                    1200: {
-                        margin: 20,
-                        stagePadding: 0,
-                        items: 3,
-                    },
-                },
-            });
-        }
-
-        if ($(".slide-one-item").length > 0) {
-            $(".slide-one-item").owlCarousel({
-                center: false,
-                items: 1,
-                loop: true,
-                stagePadding: 0,
-                margin: 0,
-                autoplay: true,
-                pauseOnHover: false,
-                nav: true,
-                animateOut: "fadeOut",
-                animateIn: "fadeIn",
-                navText: [
-                    '<span class="icon-arrow_back">',
-                    '<span class="icon-arrow_forward">',
-                ],
-            });
-        }
-
-
-    };
-    siteCarousel();
 });
 
 $(document).ready(function () {
@@ -163,3 +85,52 @@ window.addEventListener("scroll", event => {
         }
     });
 });
+// Counter animation //
+$('.counter-number > h4').counterUp ({
+    delay: 10,
+    time: 3000
+    });
+// End Counter animation //
+
+$('.exp-land-owl').owlCarousel({
+    loop:true,
+    margin:10,
+    navigation :false,
+    responsiveClass: true,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:2,
+            nav:false
+        },
+        1000:{
+            items:3,
+            nav:true,
+            loop:false
+        }
+    }
+})
+$('.exp-water-owl').owlCarousel({
+    loop:true,
+    margin:10,
+    navigation :false,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:2,
+            nav:false
+        },
+        1000:{
+            items:3,
+            nav:true,
+            loop:false
+        }
+    }
+})

@@ -62,7 +62,7 @@
   </div>
 </div>
 
-<div class="site-section about">
+<div class="site-section about"  data-aos="zoom-in">
   <div class="container">
     <div class="row">
       <div class="col-lg-6">
@@ -77,22 +77,15 @@
       </div>
     </div>
   </div>
+  <div class="container my-3" data-aos="fade-up">
+    <div class="row">
+      <div class="col-12">
+        <p> Filuro apartments is family run business that was established back in the 20XX. 
+           When we opened the apartments, our mission from the day one was to provide our guests with a pleasurable and relaxing spot for a perfect vacation. 
+        </p>
+        <p> When you come to the apartments, Sveto and his two sons will make sure you experience Boka Kotorska the right way. Through the years, Sveto established himself as a “Super host” on Airbnb, with more that XXX reviews and a rating of 9.X.  Filuro Apartments can also provide you with Boat tour, Fishing boat tour, Panoramic Car tours as well as Rent a bike and kayak. One thing worth mentioning is that, when you book via our website, you get 20% off for the Tours and Rentals.</p>
+      </div>
+    </div>
+  </div>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @endsection
