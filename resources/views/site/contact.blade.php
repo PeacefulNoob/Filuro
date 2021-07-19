@@ -11,7 +11,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="author" content="PeacefulNoob">
 
-<meta property="og:image" content="https://www.filuro.com/assets/images/logoBrow.png" />
+<meta property="og:image" content="https://www.filuro.com/assets/images/logoBrow.svg" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://filuro.com/contact" />
 <meta property="og:title" content="Apartments Filuro | Contact Us " />
@@ -54,7 +54,7 @@
     <div class="row align-items-center justify-content-center">
       <div class="col-md-7 text-center" data-aos="fade-up" data-aos-delay="400">
         <h1 class="text-white">Contact Us</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <p>Feel free to contact us !</p>
       </div>
     </div>
   </div>
@@ -102,7 +102,7 @@
 
           <div class="row form-group">
             <div class="col-md-12">
-              <input type="submit" value="Send Message" class="btn btn-primary py-3 px-4">
+              <input type="submit" value="Send Message" class="btn btn-primary br-5 py-3 px-4">
             </div>
           </div>
 
@@ -114,7 +114,7 @@
         <div class="p-4 mb-3 bg-white">
           <h3 class="h5 text-black mb-3">Contact Info</h3>
           <p class="mb-0 font-weight-bold text-black">Address</p>
-          <p class="mb-4 text-black">203 Fake St. Mountain View, San Francisco, California, USA</p>
+          <p class="mb-4 text-black">Muo 1 Kotor, 85330, Montenegro</p>
 
           <p class="mb-0 font-weight-bold text-black">Phone</p>
           <p class="mb-4"><a href="#">+382 69 344 553</a></p>
@@ -128,7 +128,7 @@
           <h3 class="h5 text-black mb-3 text-black">More Info</h3>
           <p class="text-black">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa ad iure porro mollitia architecto hic
             consequuntur. Distinctio nisi perferendis dolore, ipsa consectetur</p>
-          <p><a href="about" class="btn btn-primary  py-2 px-4">Learn More</a></p>
+          <p><a href="about" class="btn btn-primary br-5  py-2 px-4">Learn More</a></p>
         </div>
       </div>
     </div>

@@ -11,7 +11,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="author" content="PeacefulNoob">
 
-<meta property="og:image" content="https://www.filuro.com/assets/images/logoBrow.png" />
+<meta property="og:image" content="https://www.filuro.com/assets/images/logoBrow.svg" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://filuro.com/offers" />
 <meta property="og:title" content="Apartments Filuro | Offers " />
@@ -82,11 +82,11 @@
 <div class="site-blocks-cover overlay" style="background-image: url('assets/images/86.jpg');" data-aos="fade" data-stellar-background-ratio="0.5" data-aos="fade">
   <div class="container">
     <div class="row align-items-center justify-content-center">
-      <div class="col-md-8 text-center" data-aos="fade-up" data-aos-delay="400">
+      <div class="col-md-8 col-11 text-center" data-aos="fade-up" data-aos-delay="400">
         <h1 class="mb-4">Offers</h1>
         <p class="mb-5">Take advantage of special savings and exclusive offers.
         </p>
-        <p><a href="#section-1o" class="scroll btn btn-primary px-5 py-3">Take a Tour</a></p>
+        <p><a href="#section-1o" class="scroll btn btn-primary br-5 px-5 py-3 bold">Take a Tour</a></p>
       </div>
     </div>
   </div>
@@ -101,61 +101,60 @@
 </div> 
 <!-- .site-mobile-menu -->
 
-<div class="site-section experience-land px-5 py-3 my-5 wrap-bg-dark" id="section-1o"  data-aos="fade-right">
+<div class="site-section experience-land px-5 py-4 my-4 wrap-bg-dark" id="section-1o"  data-aos="fade-right">
       <div class="row">
-          <div class="col-xs-12 col-sm-12 col-md-5 col-xl-6 col-lg-5 services-detail-why  image-margin-50 ">
+          <div class="col-xs-12 col-sm-12 col-md-5 col-xl-5 col-lg-5 services-detail-why  image-margin-50 ">
             <img src="/assets/images/apartment/Apart2/60.jpg" alt="" class="img-fluid image-exp">
 
           </div>
-          <div class="col-xs-12 col-sm-12 col-md-7 col-xl-6 col-lg-7 wrap-padding text-left pl-5">
+          <div class="col-xs-12 col-sm-12 col-md-7 col-xl-7 col-lg-7 wrap-padding text-left ml-auto">
             <div class="width400">
                 <div class="section-title with-p">
                     <div>
                         <h2 style="font-size: 30px !important;
-                        line-height: 44px !important; ">Boat ride</h2>
+                        line-height: 44px !important; ">Boat tour </h2>
                     </div>
                 </div>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis.</p>
+                <p>Boat tour is the best way to experience the real feel of Boka bay. We focus on providing our guests highly personalized tours and we adapt to your wishes.</p>
+                <p>While cruising next to Perast and enjoying your drinks, you can learn interesting facts about the history of many famous landmarks in our bay from your captain</p>
                 <ul class="themeioan_ul_icon">
-                    <li><i class="fas fa-check-circle"></i> High Quality Construction Template</li>
-                    <li><i class="fas fa-check-circle"></i> You can learn anything</li>
-                    <li><i class="fas fa-check-circle"></i> We list your options by state</li>
-                    <li><i class="fas fa-check-circle"></i> Expert-created content and resources</li>
-                    <li><i class="fas fa-check-circle"></i> Medical Connections Academy</li>
+                    <li> Sightseeing and swimming </li>
+                    <li> Free drinks and homemade moonshine </li>
+                    <li> We adapt to your wishes, and you command the route you want to see</li>
                 </ul>
-                <button type="button" class="btn btn-primary mt-5" data-toggle="modal" data-target="#boat-tour">
+                <button type="button" class="btn btn-primary br-5 mt-5" data-toggle="modal" data-target="#boat-tour">
                   Boat ride
                 </button>
             </div>
       </div>
   </div>
 </div>
-<div class="site-section experience-land px-5 py-3 my-5"  data-aos="fade-left">
+<div class="site-section experience-land px-5 py-4 my-4"  data-aos="fade-left">
   <div class="row">
-      <div class="col-xs-12 col-sm-12 col-md-5 col-xl-6 col-lg-5 services-detail-why  image-margin-50 ">
-        <img src="/assets/images/apartment/Apart2/60.jpg" alt=""  class="img-fluid image-exp">
+    <div class="col-xs-12 col-sm-12 col-md-7 col-xl-7 col-lg-7 wrap-padding text-left mr-auto">
+      <div class="width400">
+          <div class="section-title with-p">
+              <div>
+                  <h2 style="font-size: 30px !important;
+                  line-height: 44px !important; ">Kayaks</h2>
+              </div>
+          </div>
+          <p>Kayaks are the best way to combine healthy exercise with pleasure. 
+             They can give you a great adventure where you can visit well known Konoba's and Fish restaurants that are scattered across the coast. </p>
+          <ul class="themeioan_ul_icon">
+              <li> Seats for 2 people</li>
+              <li> All the necessary equipment(life jackets, paddles and a waterproof bag) </li>
+              <li> Easy to park</li>
+              <li> Medical Connections Academy</li>
+          </ul>
+          <button type="button" class="btn btn-primary br-5 mt-5" data-toggle="modal" data-target="#kayak-tour">
+            Kayaks ride
+          </button>
       </div>
-      <div class="col-xs-12 col-sm-12 col-md-7 col-xl-6 col-lg-7 wrap-padding text-left pl-5">
-        <div class="width400">
-            <div class="section-title with-p">
-                <div>
-                    <h2 style="font-size: 30px !important;
-                    line-height: 44px !important; ">Kayaks ride</h2>
-                </div>
-            </div>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis.</p>
-            <ul class="themeioan_ul_icon">
-                <li><i class="fas fa-check-circle"></i> High Quality Construction Template</li>
-                <li><i class="fas fa-check-circle"></i> You can learn anything</li>
-                <li><i class="fas fa-check-circle"></i> We list your options by state</li>
-                <li><i class="fas fa-check-circle"></i> Expert-created content and resources</li>
-                <li><i class="fas fa-check-circle"></i> Medical Connections Academy</li>
-            </ul>
-            <button type="button" class="btn btn-primary mt-5" data-toggle="modal" data-target="#kayak-tour">
-              Kayaks ride
-            </button>
-        </div>
-  </div>
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-5 col-xl-5 col-lg-5 services-detail-why  image-margin-50 ">
+      <img src="/assets/images/apartment/Apart2/60.jpg" alt=""  class="img-fluid image-exp">
+    </div>
 </div>
 </div>
 

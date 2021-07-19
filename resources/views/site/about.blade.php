@@ -11,7 +11,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="author" content="PeacefulNoob">
 
-<meta property="og:image" content="https://www.filuro.com/assets/images/logoBrow.png" />
+<meta property="og:image" content="https://www.filuro.com/assets/images/logoBrow.svg" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://filuro.com/about" />
 <meta property="og:title" content="Apartments Filuro | About " />
@@ -70,7 +70,7 @@
       </div>
       <div class="col-lg-6">
         <div class="site-section-heading text-center mb-5 w-border col-md-6 mx-auto">
-          <h2 class="mb-5">Our Office</h2>
+          <h2 class="mb-5 mt-3">Our Office</h2>
           <p>            We are here to help you with your next holiday and we take care to ensure you are matched with your ideal holiday accommodation.
                       All holiday rental properties inspected and known intimately and we use this information to answer any questions you may have.</p>
         </div>
@@ -80,10 +80,9 @@
   <div class="container my-3" data-aos="fade-up">
     <div class="row">
       <div class="col-12">
-        <p> Filuro apartments is family run business that was established back in the 20XX. 
-           When we opened the apartments, our mission from the day one was to provide our guests with a pleasurable and relaxing spot for a perfect vacation. 
+        <p> : Filuro apartments is family run business that was established back in the 2009.  When we opened the apartments, our mission from the day one was to provide our guests with a pleasurable and relaxing spot for a perfect vacation.  
         </p>
-        <p> When you come to the apartments, Sveto and his two sons will make sure you experience Boka Kotorska the right way. Through the years, Sveto established himself as a “Super host” on Airbnb, with more that XXX reviews and a rating of 9.X.  Filuro Apartments can also provide you with Boat tour, Fishing boat tour, Panoramic Car tours as well as Rent a bike and kayak. One thing worth mentioning is that, when you book via our website, you get 20% off for the Tours and Rentals.</p>
+        <p> When you come to the apartments, Sveto and his two sons will make sure you experience Boka Kotorska the right way. Through the years, Sveto established himself as a “Super host” on Airbnb, with more than 500 visits and a rating of 4.8.  Filuro Apartments can also provide you with Boat tour, Fishing boat tour, Panoramic Car tours as well as Rent a bike and kayak. One thing worth mentioning is that, when you book via our website, you get 20% off for the Tours and Rentals.</p>
       </div>
     </div>
   </div>

@@ -62,12 +62,19 @@
             </div>
         </div>
     </div> -->
-{{--     <div id="global-loader">
+   {{--  <div id="global-loader">
         <img src="/assets/images/logoBrow.png" class="loader-img floating" alt="Pocetna">
-    </div> --}}
+    </div>  --}}
+    <div id="loader-wrapper">
+        <div style="position: relative" id="loader">
+            <img src="/assets/images/logoBrow.png"  class="bounce" alt="Loader">
+        </div>
+    </div> 
+    
     @include('layouts.header')
-
+    <div style="width: 100%;overflow:hidden;">
     @yield('content')
+    </div>
     @include('compontents.map')
 
     @include('compontents.social_icons')

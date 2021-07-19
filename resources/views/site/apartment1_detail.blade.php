@@ -11,7 +11,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="author" content="PeacefulNoob">
 
-<meta property="og:image" content="https://www.filuro.com/assets/images/logoBrow.png" />
+<meta property="og:image" content="https://www.filuro.com/assets/images/logoBrow.svg" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://filuro.com/charming" />
 <meta property="og:title" content="Apartments Filuro | Charming Apartment I " />
@@ -74,7 +74,7 @@
         <li>Total Area: <strong>65 Square Feets</strong></li>
         <li>Category: <strong>Modern Apartment</strong></li>
       </ul>
-      <p><a href="#contact" class="btn btn-primary px-4 py-3">Contact Us</a></p>
+      <p><a href="#contact" class="btn btn-primary br-5 px-4 py-3">Contact Us</a></p>
     </div>
   </div>
 </div>
@@ -213,7 +213,7 @@
         </div>
         <div class="col-lg-5 col-md-12 content fl">
           <h2>Terrace</h2>
-          <p>sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. voluptatem. Ut enim ad minima veniam quis.</p>
+          <p>Private terrace insures maximum privacy for relaxing nights.</p>
           <ul>
             <li><i class="fa fa-long-arrow-right"></i> Open and Quiet</li>
             <li><i class="fa fa-long-arrow-right"></i> Private and Spacious</li>
@@ -296,7 +296,7 @@
 
             <div class="row form-group">
               <div class="col-md-12">
-                <input type="submit" value="Send Message" class="btn btn-primary py-3 px-4">
+                <input type="submit" value="Send Message" class="btn btn-primary br-5 py-3 px-4">
               </div>
             </div>
 
@@ -362,7 +362,7 @@
             <div class="item-name">Bathroom</div>
             <img src="/assets/images/apartment/Apart1/kupatilo.jpg" alt="bathroom" class="item-image">
             <div class="item-text">
-              <p>sed quia non numquam eius modi tempora incidunt <br> ut labore et dolore magnam aliquam quaerat volup- ptatem. voluptatem. </p>
+              <p>Always cleaned up to latest standards regarding COVID-19</p>
               <ul>
                 <li><i class="fa fa-long-arrow-right"></i> Good Furniture in room</li>
                 <li><i class="fa fa-long-arrow-right"></i> Granite Stone on floor</li>

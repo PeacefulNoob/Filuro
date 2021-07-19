@@ -10,7 +10,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="author" content="PeacefulNoob">
 
-<meta property="og:image" content="https://www.filuro.com/assets/images/logoBrow.png" />
+<meta property="og:image" content="https://www.filuro.com/assets/images/logoBrow.svg" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://filuro.com" />
 <meta property="og:title" content="Apartments Filuro" />
@@ -45,10 +45,10 @@
 <div class="site-blocks-cover overlay" style="background-image: url('assets/images/86.jpg');" data-aos="fade" data-stellar-background-ratio="0.5" data-aos="fade">
   <div class="container">
     <div class="row align-items-center justify-content-center">
-      <div class="col-md-8 text-center" data-aos="fade-up" data-aos-delay="400">
+      <div class="col-md-8 col-11 text-center" data-aos="fade-up" data-aos-delay="400">
         <h1 class="mb-4">Always Fresh <br>Forever Original</h1>
         <p class="mb-5">Muo bb , Kotor , Crna Gora</p>
-        <p><a href="#section-1" class="scroll btn btn-primary px-5 py-3">Take a Tour</a></p>
+        <p><a href="#section-1" class="scroll btn btn-primary br-5 px-5 py-3 bold">Take a Tour</a></p>
       </div>
     </div>
   </div>
@@ -72,8 +72,8 @@
       <a href="stylish" class="col1 unit-9 no-height" data-aos="fade-up" data-aos-delay="100">
         <div class="image" style="background-image: url('assets/images/apartment/Apart2/48duplo.jpg');"></div>
         <div class="unit-9-content">
-          <h2>Apartment II</h2>
-          <span>$600/night</span>
+          <h2>Charming Filuro II Apt</h2>
+          <span>From €70/night</span>
         </div>
       </a>
 
@@ -82,16 +82,16 @@
         <a href="charming" class="col2-row1 unit-9 no-height" data-aos="fade-up" data-aos-delay="200">
           <div class="image" style="background-image: url('assets/images/apartment/Apart1/dnevni1.jpg');"></div>
           <div class="unit-9-content">
-            <h2> Apartment I</h2>
-            <span>$290/night</span>
+            <h2>Stylish Filuro Apt</h2>
+            <span>From €70/night</span>
           </div>
         </a>
 
         <a href="charming" class="col2-row2 unit-9 no-height" data-aos="fade-up" data-aos-delay="300">
           <div class="image" style="background-image: url('assets/images/apartment/Apart2/48duplo.jpg');"></div>
           <div class="unit-9-content">
-            <h2>Apartment III</h2>
-            <span>$1,290/night</span>
+            <h2>Luxury Filuro w/3-bedroom</h2>
+            <span>From €140/night</span>
           </div>
         </a>
 
@@ -107,52 +107,64 @@
   <div class="container">
       <div class="row">
 
-          <div class="col-lg-6">
+          <div class="col-lg-4 col-sm-6">
               <div class="section-title with-p m-0">
                   <h2>Our apartment<br>
                      in numbers</h2>
               </div>
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-8 col-sm-6 mt-3">
               <div class="row">
                   <!-- #counter -->
-                  <div class="col-xs-12 col-sm-12 col-md-4">
+                  <div class="col-xs-12 col-sm-12 col-md-3">
                       <div class="info">
                           <!-- 1 -->
                           <div class="themeioan_counter"><!-- single counter item -->
                               <div class="counter-number">
-                                  <h4>270</h4>
-                                  <div class="countersub">X</div>
+                                  <h4>20</h4>
                               </div>
-                              <p>Reviews</p>
+                              <p class="bold">M</p>
+                              <p>From the sea</p>
                           </div><!-- end single counter item -->
                       </div>
                   </div>
-                  <div class="col-xs-12 col-sm-12 col-md-4">
+                  <div class="col-xs-12 col-sm-12 col-md-3">
                       <!-- .row -->
                       <div class="info">
                           <!-- 2 -->
                           <div class="themeioan_counter"><!-- single counter item -->
                               <div class="counter-number">
-                                  <h4>500</h4>
-                                  <div class="countersub">+</div>
+                                  <h4>560</h4>
                               </div>
+                              <p class="bold">+</p>
                               <p>Reservations</p>
                           </div>
                       </div>
                   </div>
-                  <div class="col-xs-12 col-sm-12 col-md-4">
+                  <div class="col-xs-12 col-sm-12 col-md-3">
                       <div class="info">
                           <!-- 3 -->
                           <div class="themeioan_counter"><!-- single counter item -->
                               <div class="counter-number">
-                                  <h4>8</h4>
-                                  <div class="countersub">X</div>
+                                  <h4>11</h4>
                               </div>
+                              <p class="bold">Years</p>
                               <p>Years Of Experience</p>
                           </div><!-- end single counter item -->
                       </div>
                   </div>
+                  <div class="col-xs-12 col-sm-12 col-md-3">
+                    <div class="info">
+                        <!-- 3 -->
+                        <div class="themeioan_counter"><!-- single counter item -->
+                            <div class="counter-number">
+                                <h4>4.8</h4>
+                            </div>
+                            <p class="bold">Rating</p>
+                            <p>From 300 reviews</p>
+                        </div><!-- end single counter item -->
+                    </div>
+                </div>
                   <!-- .row end -->
               </div>
           </div>
@@ -210,7 +222,7 @@
       </div>
 
       <div class="col-md-12 text-center mt-5" data-aos="fade-up">
-        <a href="apartments" class="btn btn-primary">Browse All Apartments</a>
+        <a href="apartments" class="btn btn-primary br-5">Browse All Apartments</a>
       </div>
     </div>
   </div>

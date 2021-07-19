@@ -1,33 +1,3 @@
-/*
- * File Name: Helper Js file
- * File Author: Design Arc
- * File Description: This is helper javascript file. Used for activating js plugins and Other javascript effects adding. Thanks
- */
-
-/*-------------------------------------
---------- TABLE OF CONTENT ------------
----------------------------------------
-
-1.bannerSlider
-2. galleryMasonaryLayout
-3. GalleryFilter
-4. fancyboxInit
-5. gMap
-6. testimonialCarosule
-7. SmoothMenuScroll
-8. OnePageMenuScroll
-9. DeadMenuConfig
-10. contactFormValidation
-11. videoFancybox
-12. sliding gallery 
-13. hiddenBarMenuConfig
-14. customScrollBarHiddenSidebar
-15. hiddenBarToggler
-16. handlePreloader
-17. stickyHeader
-
-----------------------------------------
---------------------------------------*/
 
 "use strict";
 
@@ -148,13 +118,6 @@ function hiddenBarMenuConfig() {
     });
 }
 
-// 16. handlePreloader
-function handlePreloader() {
-    if ($(".preloader").length) {
-        $(".preloader").fadeOut();
-    }
-}
-
 // 20. galleryModal
 function galleryModal() {
     if ($("#single-gallery-modal").length && $(".single-gallery").length) {
@@ -201,11 +164,5 @@ jQuery(document).on("ready", function () {
         slidingGallery();
         hiddenBarMenuConfig();
         galleryModal();
-    })(jQuery);
-});
-// instance of fuction while Window Load event
-jQuery(window).on("load", function () {
-    (function ($) {
-        handlePreloader();
     })(jQuery);
 });

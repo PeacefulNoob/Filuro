@@ -11,7 +11,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="author" content="PeacefulNoob">
 
-<meta property="og:image" content="https://www.filuro.com/assets/images/logoBrow.png" />
+<meta property="og:image" content="https://www.filuro.com/assets/images/logoBrow.svg" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://filuro.com/experiences" />
 <meta property="og:title" content="Apartments Filuro | Experiences " />
@@ -44,11 +44,11 @@
 <div class="site-blocks-cover overlay" style="background-image: url('assets/images/86.jpg');" data-aos="fade" data-stellar-background-ratio="0.5" data-aos="fade">
   <div class="container">
     <div class="row align-items-center justify-content-center">
-      <div class="col-md-8 text-center" data-aos="fade-up" data-aos-delay="400">
+      <div class="col-md-8 col-11 text-center" data-aos="fade-up" data-aos-delay="400">
         <h1 class="mb-4">Experiences</h1>
         <p class="mb-5">Experience the year-round pleasures of Boka Bay and beyond with adventures for the brave and ever-curious.
         </p>
-        <p><a href="#section-1e" class="scroll btn btn-primary px-5 py-3">Take a Tour</a></p>
+        <p><a href="#section-1e" class="scroll btn btn-primary br-5 px-5 py-3 bold">Take a Tour</a></p>
       </div>
     </div>
   </div>

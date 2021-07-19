@@ -134,3 +134,8 @@ $('.exp-water-owl').owlCarousel({
         }
     }
 })
+$(document).ready(function () {
+    setTimeout(function () {
+        $("body").addClass("loaded");
+    }, 800);
+});
