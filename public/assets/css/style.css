@@ -25,7 +25,9 @@ h5,
 h6 {
     font-family: "Lato", sans-serif;
 }
-
+p {
+    color: #545454;
+}
 a {
     -webkit-transition: 0.3s all ease;
     -o-transition: 0.3s all ease;
@@ -622,7 +624,6 @@ a:hover {
 .site-blocks-cover h1 {
     font-weight: 900;
     color: #fff;
-    font-size: 4rem;
     font-weight: normal;
     letter-spacing: 0.1em;
     text-transform: uppercase;
@@ -932,7 +933,6 @@ a:hover {
 }
 
 .site-section-heading h2 {
-    font-size: 2rem;
     letter-spacing: 0.2em;
     text-transform: uppercase;
 }
@@ -1011,6 +1011,7 @@ figure figcaption {
     margin-top: -100px;
     -webkit-box-shadow: 0 0 20px -5px rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 20px -5px rgba(0, 0, 0, 0.1);
+    flex-wrap: wrap;
 }
 
 .property_detail div {
@@ -1050,6 +1051,7 @@ figure figcaption {
 /* 3.4. ========================= Counter ========================= */
 
 .themeioan_counter {
+    text-align: center;
     -webkit-transform: translateY(0);
     -ms-transform: translateY(0);
     transform: translateY(0);
@@ -1109,4 +1111,8 @@ position:absolute;
 }
 .wrap-bg-dark {
     background-color: #f2f2f2;
+}
+.calendar-apartment {
+    width : 600px ;
+    height : 400px;
 }

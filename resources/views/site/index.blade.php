@@ -109,8 +109,8 @@
 
           <div class="col-lg-6">
               <div class="section-title with-p m-0">
-                  <h2>Ovaj Tekst<br>
-                     Takodje treba</h2>
+                  <h2>Our apartment<br>
+                     in numbers</h2>
               </div>
           </div>
           <div class="col-lg-6">
@@ -121,10 +121,10 @@
                           <!-- 1 -->
                           <div class="themeioan_counter"><!-- single counter item -->
                               <div class="counter-number">
-                                  <h4>80</h4>
+                                  <h4>270</h4>
                                   <div class="countersub">X</div>
                               </div>
-                              <p>Reservations</p>
+                              <p>Reviews</p>
                           </div><!-- end single counter item -->
                       </div>
                   </div>
@@ -134,10 +134,10 @@
                           <!-- 2 -->
                           <div class="themeioan_counter"><!-- single counter item -->
                               <div class="counter-number">
-                                  <h4>60</h4>
-                                  <div class="countersub">X</div>
+                                  <h4>500</h4>
+                                  <div class="countersub">+</div>
                               </div>
-                              <p>AIRBNB SCORE</p>
+                              <p>Reservations</p>
                           </div>
                       </div>
                   </div>
@@ -146,10 +146,10 @@
                           <!-- 3 -->
                           <div class="themeioan_counter"><!-- single counter item -->
                               <div class="counter-number">
-                                  <h4>30</h4>
+                                  <h4>8</h4>
                                   <div class="countersub">X</div>
                               </div>
-                              <p>Ne znam</p>
+                              <p>Years Of Experience</p>
                           </div><!-- end single counter item -->
                       </div>
                   </div>
